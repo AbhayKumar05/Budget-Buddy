@@ -2,7 +2,7 @@
 
 ## 1. Idea
 
-The project entails the creation of the budgeting software **"Budget Buddy."** The purpose of Budget Buddy is to assist users effectively manage their personal money by keeping track of their daily, weekly, and monthly spending.
+The project entails the creation of the budgeting software **"Budget Buddy."** The purpose of Budget Buddy is to assist users effectively manage their personal money by keeping track of their spending, making a budget and tracking the bills too. 
 
 ## 2. Background Research
 
@@ -15,8 +15,6 @@ The Budget Buddy mobile app project's main goals are to:
 - Offer consumers a simple and straightforward platform for tracking their spending.
 - Enable consumers to tag and categorise their spending for improved financial analysis.
 - Assist users in creating and maintaining budgets for various spending categories.
-- Provide tools for data visualisation, such as graphs and charts, to assist users in understanding their purchasing habits.
-- Offer information and analyses that help people make wise financial decisions.
 
 ## 4. Definition of the Target Audience
 
@@ -27,29 +25,16 @@ The following people are the target market for Budget Buddy:
 - Teenagers and working adults who wish to budget their money and save wisely.
 - Anyone looking to make the process of tracking and assessing their costs simpler.
 
-# Research on Existing Tools
-
-Before the conception of Budget Buddy, a detailed investigation of other spending tracking applications was conducted. Popular apps in this category include:
-
-- **Expensify**
-- **PocketGuard**
-- **YNAB (You Need A Budget)**
-- **Mint**
-
-These applications offer various features for budgeting, cost tracking, and gaining financial insights. The research conducted on these existing tools served as an influence to ensure that Budget Buddy stands out in terms of usability and usefulness.
-
-By adhering to the architecture of this project, we aim to create Budget Buddy, a valuable app for individuals seeking efficient cost monitoring and money management on their mobile devices.
-
 #Core
 
 ## Core Project Use Case
 
-A key use case for our project involves a user registering in the app with their name, email, and a password. After successful registration and the user will encounter a '+' icon. Clicking on this icon will enable them to select from a range of categories the user wish to use for implementing their respective budgets. Once the categories are chosen, the user will navigate to their wallet icon and proceed to create and manage budgets for each category, whether they are on a weekly, monthly, or annual basis.
+A key use case for our project involves a user registering in the app with their name, email, and a password. After successful registration the user would find the button 'Total expenses' and the user will encounter a '+' icon. Clicking on this icon will enable them to select from a range of categories the user wish to use for implementing their respective budgets.
 
 ## Alternate Use Cases
 
 A different use case from our core functionality involves a user who wishes to capture and store or view receipts after making a purchase. To do this, the user needs to grant access to the camera and their gallery. Once granted, the user taps on the wallet icon. After accessing the wallet page, the user has two options. One option allows them to view receipts according to the month, and the other option enables them to take a photo of the receipt, which is immediately saved.
-Another usage of the app as an expense tracker is that after user is registered, on the goal icon the user will the challenge page. This page includes section which has challenges pre defined the user will find. These challenge once put the timer in and the start button is clicked, the challenge strats. The value saved would be then stored into a section on home page of the app.
+Another usage of the app as an expense tracker is that after user is registered, clicking on the 'Total Savings' button the user will find the challenge page. This page includes section which has space to put challenges. These challenge once put the timer in and the start button is clicked, the challenge strats.
 
 # Project Plan
 
@@ -128,7 +113,6 @@ Functional requirements describe what the software should do. They specify the f
 3. **Initial Screen**
 
    - The initial screen includes:
-     - Logo
      - Name
      - Login
      - Register
@@ -152,13 +136,9 @@ Functional requirements describe what the software should do. They specify the f
 
 7. **Budget Creation**
 
-8. **Data Visualization**
+8. **Receipt Management**
 
-   - Provide tools for data visualization, such as graphs and charts, to help users understand their spending habits.
-
-9. **Receipt Management**
-
-10. **Challenges**
+9. **Challenges**
 
 # Non-Functional Requirements
 
