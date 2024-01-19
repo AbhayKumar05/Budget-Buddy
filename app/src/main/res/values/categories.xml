@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="categories">
+        <item>Shopping</item>
+        <item>Subscription</item>
+        <item>Travel</item>
+        <item>Leisure</item>
+        <item>Dinning out</item>
+        <item>Personal Care</item>
+        <item>Special occasion</item>
+        <item>Transportation</item>
+        <item>Work expenses</item>
+        <item>Water Bill</item>
+        <item>Electricity</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Child care</item>
+        <item>Mortgage</item>
+        <item>Insurance</item>
+        <item>Loan</item>
+        <item>Tax</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

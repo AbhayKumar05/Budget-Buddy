@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lblue">#ebf1f5</color>
+    <color name="blue">#374254</color>
+    <color name="pblue">#fdf0d5</color>
+    <color name="dblue">#00141F</color>
+    <color name="skyblue">#C1B6A4</color>
+    <color name="drakred">#FF0000</color>
+    <color name="grey">#6B6E70</color>
+    <color name="lightgrey">#A4A4A4</color>
+    <color name="background">#FFF5F5F5</color>
+    <color name="brightblue">#1A43BF</color>
+    <color name="mywhite">#FEFEFA</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+
+    <color name="shopping">#FCBF49</color>
+    <color name="subscription">#6587A1</color>
+    <color name="travel">#709078</color>
+    <color name="leisure">#AAC4E7</color>
+    <color name="dinningout">#C0AB6A</color>
+    <color name="personalcare">#F38982</color>
+    <color name="specialoccasion">#9AACC0</color>
+    <color name="transportation">#D2D7DC</color>
+    <color name="workexpenses">#E6CEB7</color>
+    <color name="others">#D8C6A6</color>
+
+
+
+
+
+
+</resources>

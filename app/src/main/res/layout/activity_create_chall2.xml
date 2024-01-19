@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mywhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edit_name_challenge"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="208dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/challenge_hint"
+        android:textColorHint="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/start_challenge_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <EditText
+        android:id="@+id/countdownTextView"
+        android:layout_width="194dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:hint="@string/challenge_time_hint"
+        android:textColorHint="@color/lightgrey"
+        app:layout_constraintBottom_toTopOf="@+id/start_challenge_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_name_challenge"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/start_challenge_button"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="288dp"
+        android:text="@string/start_button_text"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/brightblue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.869" />
+
+
+    <TextView
+        android:id="@+id/sentence_challenge_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:text="@string/challenge_description"
+        android:textColor="@color/dblue"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <TextView
+        android:id="@+id/challengeView"
+        android:layout_width="124dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/challenges_title"
+        android:textColor="@color/dblue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/sentence_challenge_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="384dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/bottom_background"
+        app:backgroundTint="@color/dblue"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@color/lblue"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
