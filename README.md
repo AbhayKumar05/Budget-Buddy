@@ -65,7 +65,6 @@ Another usage of the app as an expense tracker is that after user is registered,
 
 - Establish the database connections and code integration for the application.
 
-# Domain Model
 
 +------------------+ +----------------+ +----------------+ +------------------+
 | User | | Categories | | Expenses | | Bills & Receipts |
