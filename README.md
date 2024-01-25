@@ -3,7 +3,7 @@
 ## 1. Idea
 
 The project entails the creation of the budgeting software **"Budget Buddy."** The purpose of Budget Buddy is to assist users effectively manage their personal money by keeping track of their spending, making a budget and tracking the bills too. 
-
+ 
 ## 2. Background Research
 
 People are increasingly looking for tools and applications in the present financial landscape that may help them keep a clear perspective of their financial operations. Due to the widespread usage of mobile devices, people may now easily keep track of their spending thanks to mobile applications. According to research, there is an increasing need for user-friendly cost tracker applications with attributes like classification, budgeting, and data visualisation.
