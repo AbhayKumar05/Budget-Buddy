@@ -65,42 +65,6 @@ Another usage of the app as an expense tracker is that after user is registered,
 
 - Establish the database connections and code integration for the application.
 
-
-+------------------+ +----------------+ +----------------+ +------------------+
-| User | | Categories | | Expenses | | Bills & Receipts |
-+------------------+ +----------------+ +----------------+ +------------------+
-| UserID (PK) | | CategoryID (PK)| | ExpenseID (PK) | | BillID (PK) |
-| Username | | Name | | Name | | Name |
-| Password | | Budget Limit | | Amount | | Amount |
-| Email | | Description | | Date | | Due Date |
-| Profile Picture | | Color Code | | | | |
-| Preferences | +----------------+ | Description | | Receipt Image |
-| ... | | +----------------+ | ... |
-+------------------+ | / +------------------+
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-| /
-+----------------------+
-| Reports/Analytics |
-+----------------------+
-| ReportID (PK) |
-| Report Name |
-| Data Period |
-| ... |
-+----------------------+
-
 # Functional Requirements
 
 Functional requirements describe what the software should do. They specify the features and capabilities that the application should have:
