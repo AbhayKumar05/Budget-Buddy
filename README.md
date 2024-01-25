@@ -22,7 +22,7 @@ The following people are the target market for Budget Buddy:
 
 - People who wish to take better control of their personal budget.
 - Consumers on a tight budget need an easy method to keep tabs on their expenditures. 
-- Teenagers and working adults who wish to budget their money and save wisely.
+- Teenagers and working adults who wish to budget their money and save wisely in a fun manner.
 - Anyone looking to make the process of tracking and assessing their costs simpler.
 
 
