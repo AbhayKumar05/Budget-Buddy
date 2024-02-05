@@ -104,7 +104,7 @@ Functional requirements describe what the software should do. They specify the f
 9. **Challenges**
 
 # Non-Functional Requirements
-
+ 
 Non-functional requirements focus on performance, security, and usability considerations:
 
 1. **Security**
